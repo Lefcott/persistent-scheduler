@@ -4,8 +4,6 @@ Now it stores data on mongodb. Redis and memcached connections comming soon!
 
 ### Usage:
 ```js
-require('../server/commons/env');
-
 const { schedule } = require('persistent-scheduler')({
   mongodb: { url: process.env.MONGODB_URL, helloMessage: true }
 });
