@@ -1,0 +1,38 @@
+{
+  "name": "persistent-scheduler",
+  "version": "1.0.0",
+  "description": "Schedules functions with long timeouts that persists when server is restarted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lefcott19/persistent-scheduler.git"
+  },
+  "keywords": [
+    "schedule",
+    "scheduler",
+    "persistent",
+    "timeout",
+    "long",
+    "time",
+    "redis",
+    "mongodb",
+    "settimeout"
+  ],
+  "author": "Leandro Cotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lefcott19/persistent-scheduler/issues"
+  },
+  "homepage": "https://github.com/lefcott19/persistent-scheduler#readme",
+  "dependencies": {
+    "cron-parser": "^2.13.0",
+    "deep-spread": "^1.1.1",
+    "long-timeout": "^0.1.1",
+    "method-stack": "^1.0.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.7"
+  }
+}
